@@ -3,7 +3,7 @@
 - file trả về là 1 file html, trong file html có 1 hoặc 2 thẻ ul có class là  entry-point-box, 
 trong mỗi thẻ ul có rất nhiều các thẻ li, trong mỗi một thẻ li có 1 thẻ a, thẻ a đó
 có các thông tin về 1 bài kiểm tra:
-+ Thẻ a đó có thuộc tính data-launch_url là id của bài kiểm tra
++ Thẻ a đó có thuộc tính data-launch_url là link của bài kiểm tra
 + 1 thẻ a có 1 thẻ h3, giá trị của thẻ h3 là tên bài kiểm tra
 + 1 thẻ a có 1 hoặc 2 thẻ p có các thông tin như thời gian làm, số lần làm, theo thứ tự thẻ p thì thời 
 gian làm xuất hiện trước số lần làm, nếu có 1 thẻ p thì không biết đó là nội dung gì

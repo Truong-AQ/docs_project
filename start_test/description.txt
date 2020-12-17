@@ -1,0 +1,10 @@
+bệnh nhân khi bắt đầu bài kiểm tra sẽ gọi 2 api:
+- Link bài kiểm tra (khi lấy danh sách các bài kiểm tra thì đây cũng là thông tin của 1 bài kiểm tra
+, phương thức get): Kết quả sẽ là 3 thông số string cần để gọi api dưới, 3 thông số này cũng cần thiết
+trong việc lấy từng câu hỏi về (folder get_link)
+ví dụ link: 
+http://aigle.blife.ai/taoDelivery/DeliveryServer/runDeliveryExecution?deliveryExecution=http%3A%2F%2Faigle.blife.ai%2FAigle.rdf%23i160822155072727782
+- http://aigle.blife.ai/taoQtiTest/Runner/init: Lấy danh sách các câu hỏi trong bài kiểm tra
+(phương thức post, folder init_test)
+
+kết quả sau khi gọi chúng ta sẽ có mảng các câu hỏi, có thông số là id của câu hỏi đó:

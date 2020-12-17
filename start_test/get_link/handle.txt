@@ -1,0 +1,6 @@
+- cần thay thế trường Cookie trong header_request bằng giá trị đã lấy được khi thực hiện chức năng đăng nhập
+
+- file trả về là 1 file html, trong file html có 4 thẻ script, thẻ script thứ 2 có thuộc tính là data-params,
+giá trị thuộc tính này có những giá trị mà chúng ta cần, giá trị này là 1 chuỗi string có thể format về
+định dạng json, dạng của chuỗi trong file data_params.json, từ chuỗi json này ta thu được 3 thông số là:
+testDefinition, testCompilation, serviceCallId
