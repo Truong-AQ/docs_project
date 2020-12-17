@@ -1,0 +1,4 @@
+việc đăng nhập chúng ta sẽ gọi 1 api: http://aigle.blife.ai/tao/Main/login (miêu tả trong folder login
+, giao thức post),
+kết quả sau khi gọi xong chúng ta sẽ có 1 chuỗi giá trị để có thể gọi được tất cả các api khác của ứng
+dụng để load dữ liệu

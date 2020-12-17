@@ -1,0 +1,5 @@
+- cần thay thế 2 trường login và password trong body_request, login thay thế bằng tên đăng nhập,
+password thay thế bằng mật khẩu
+
+- giá trị cần lấy là trường Set-Cookie ở phần header trong response, giá trị này sẽ được sử dụng để
+gọi tất cả các api còn lại của ứng dụng

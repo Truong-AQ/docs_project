@@ -1,0 +1,9 @@
+việc lấy các bài kiểm tra của bệnh nhân chúng ta sẽ gọi 1 api:
+http://aigle.blife.ai/taoDelivery/DeliveryServer/index (miêu tả trong folder get_test, giao thức post),
+
+kết quả sau khi gọi xong chúng ta sẽ có 1 mảng các bài kiểm tra, thông tin bài kiểm tra bao gồm:
+- Tên bài kiểm tra
+- Id bài kiểm tra (nếu có)
+- khoảng thời gian để làm bài kiểm tra (nếu có)
+- Số lần thực hiện tối đa (nếu có)
+- Trạng thái đang làm (đã làm, đang làm, chưa làm)
