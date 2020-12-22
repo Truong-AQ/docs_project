@@ -1,6 +1,19 @@
-- cần thay thế trường Cookie trong header_request bằng giá trị đã lấy được khi thực hiện chức năng đăng nhập
+- cần thay thế trường Cookie trong header_request bằng giá trị đã lấy được khi thực hiện chức năng đăng nhập,
+3 tham số truyền lên trong params là testDefinition, testCompilation, serviceCallId lấy được khi gọi api
+get_link
 
-- file trả về là 1 file html, trong file html có 4 thẻ script, thẻ script thứ 2 có thuộc tính là data-params,
-giá trị thuộc tính này có những giá trị mà chúng ta cần, giá trị này là 1 chuỗi string có thể format về
-định dạng json, dạng của chuỗi trong file data_params.json, từ chuỗi json này ta thu được 3 thông số là:
-testDefinition, testCompilation, serviceCallId
+- dữ liệu trả về dạng json, cách lấy thông tin các câu hỏi của bài kiểm tra trong file json này như sau:
+(gọi cả chuỗi json là json):
++ token đọc bằng cách json['token], token này cần thiết để gọi api lấy dữ liệu câu hỏi đầu tiên (mỗi
+khi lấy câu hỏi hoặc submit trả lời của bệnh nhân, hệ thống sẽ trả về 1 giá trị token để gọi api lấy
+câu hỏi hoặc submit trả lời trong lần gọi tiếp theo)
++ lấy 1 chuỗi json con trong chuỗi json ban đầu, chuỗi này là json1 = json[testMap]['parts]
++ chuỗi json1 có các cặp giá trị dạng key - value, ta quan tâm phần value của các cặp giá trị đó,
+cũng là 1 chuỗi json, ta gọi mỗi chuỗi đó là chuỗi json2
++ ta đọc chuỗi json3 = json2[sections][items]
++ chuỗi json3 có các cặp giá trị dạng key - value, ta quan tâm phần value của các cặp giá trị đó, cũng
+là 1 chuỗi json, ta gọi mỗi chuỗi đó là json4, id của mỗi câu hỏi là json4[id]
+=> từ đó ta thu được mảng chuỗi các id câu hỏi của bài kiểm tra
++ Ta đọc giá trị json[testMap][stats][answered] là số câu hỏi mà bệnh phân đã trả lời trong bài kiểm tra (
+    bằng 0 nếu bệnh nhân làm từ đầu bài kiểm tra
+)

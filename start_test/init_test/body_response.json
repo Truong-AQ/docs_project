@@ -1,0 +1,360 @@
+{
+    "success": true,
+    "testData": {
+        "title": "Test 1",
+        "identifier": "Test-1",
+        "className": "assessmentTest",
+        "toolName": "tao",
+        "exclusivelyLinear": true,
+        "hasTimeLimits": false,
+        "states": {
+            "initial": 0,
+            "interacting": 1,
+            "modalFeedback": 2,
+            "suspended": 3,
+            "closed": 4
+        },
+        "itemStates": {
+            "initial": 0,
+            "interacting": 1,
+            "modalFeedback": 2,
+            "suspended": 3,
+            "closed": 4,
+            "solution": 5,
+            "review": 6,
+            "notSelected": 255
+        },
+        "config": {
+            "timerWarning": {
+                "assessmentItemRef": null,
+                "assessmentSection": null,
+                "testPart": null,
+                "assessmentTest": null
+            },
+            "catEngineWarning": null,
+            "progressIndicator": {
+                "type": "percentage",
+                "renderer": "percentage",
+                "scope": "test",
+                "forced": false,
+                "showLabel": true,
+                "showTotal": true,
+                "categories": []
+            },
+            "review": {
+                "enabled": true,
+                "scope": "test",
+                "useTitle": true,
+                "forceTitle": false,
+                "forceInformationalTitle": false,
+                "showLegend": true,
+                "defaultOpen": true,
+                "itemTitle": "Item %d",
+                "informationalItemTitle": "Instructions",
+                "preventsUnseen": true,
+                "canCollapse": false,
+                "displaySubsectionTitle": true,
+                "allowSkipahead": false
+            },
+            "exitButton": false,
+            "nextSection": false,
+            "plugins": {
+                "answer-masking": {
+                    "restoreStateOnToggle": true,
+                    "restoreStateOnMove": true
+                },
+                "overlay": {
+                    "full": false
+                },
+                "collapser": {
+                    "collapseTools": true,
+                    "collapseNavigation": false,
+                    "collapseInOrder": false,
+                    "hover": false,
+                    "collapseOrder": []
+                },
+                "magnifier": {
+                    "zoomMin": 2,
+                    "zoomMax": 8,
+                    "zoomStep": 0.5
+                },
+                "calculator": {
+                    "template": ""
+                }
+            },
+            "security": {
+                "csrfToken": true
+            },
+            "timer": {
+                "target": "server",
+                "resetAfterResume": false,
+                "keepUpToTimeout": false,
+                "restoreTimerFromClient": false
+            },
+            "enableAllowSkipping": true,
+            "enableValidateResponses": true,
+            "checkInformational": true,
+            "enableUnansweredItemsWarning": true,
+            "allowShortcuts": true,
+            "shortcuts": {
+                "calculator": {
+                    "toggle": "C"
+                },
+                "zoom": {
+                    "in": "I",
+                    "out": "O"
+                },
+                "comment": {
+                    "toggle": "A"
+                },
+                "itemThemeSwitcher": {
+                    "toggle": "T"
+                },
+                "review": {
+                    "toggle": "R",
+                    "flag": "M"
+                },
+                "keyNavigation": {
+                    "previous": "Shift+Tab",
+                    "next": "Tab"
+                },
+                "next": {
+                    "trigger": "J"
+                },
+                "previous": {
+                    "trigger": "K"
+                },
+                "dialog": [],
+                "magnifier": {
+                    "toggle": "L",
+                    "in": "Shift+I",
+                    "out": "Shift+O",
+                    "close": "esc"
+                },
+                "highlighter": {
+                    "toggle": "Shift+U"
+                },
+                "area-masking": {
+                    "toggle": "Y"
+                },
+                "line-reader": {
+                    "toggle": "G"
+                },
+                "answer-masking": {
+                    "toggle": "D"
+                }
+            },
+            "itemCaching": {
+                "enabled": false,
+                "amount": 3
+            },
+            "guidedNavigation": false,
+            "toolStateServerStorage": [],
+            "forceEnableLinearNextItemWarning": false,
+            "enableLinearNextItemWarningCheckbox": true
+        }
+    },
+    "testContext": {
+        "state": 1,
+        "navigationMode": 0,
+        "submissionMode": 0,
+        "remainingAttempts": -1,
+        "isAdaptive": false,
+        "isLinear": true,
+        "isTimeout": false,
+        "itemIdentifier": "item-2",
+        "attempt": 1,
+        "itemSessionState": 1,
+        "isCatAdaptive": false,
+        "needMapUpdate": false,
+        "isLast": false,
+        "itemPosition": 1,
+        "itemFlagged": false,
+        "itemAnswered": true,
+        "timeConstraints": [],
+        "testPartId": "testPart-1",
+        "sectionId": "assessmentSection-1",
+        "sectionTitle": "Section 1",
+        "numberItems": 8,
+        "numberCompleted": 1,
+        "numberPresented": 2,
+        "considerProgress": true,
+        "isDeepestSectionVisible": true,
+        "canMoveBackward": false,
+        "numberRubrics": 0,
+        "enableAllowSkipping": true,
+        "allowSkipping": true,
+        "enableValidateResponses": true,
+        "validateResponses": false,
+        "hasFeedbacks": false,
+        "options": {
+            "allowComment": false,
+            "allowSkipping": true,
+            "exitButton": false,
+            "logoutButton": true,
+            "validateResponses": false,
+            "sectionPause": false
+        }
+    },
+    "lastStoreId": "0F90E441-41A1-4A0E-BD8F-FE3D8D642434",
+    "testMap": {
+        "scope": "test",
+        "parts": {
+            "testPart-1": {
+                "id": "testPart-1",
+                "label": "testPart-1",
+                "position": 0,
+                "isLinear": true,
+                "sections": {
+                    "assessmentSection-1": {
+                        "id": "assessmentSection-1",
+                        "label": "Section 1",
+                        "isCatAdaptive": false,
+                        "position": 0,
+                        "items": {
+                            "item-1": {
+                                "id": "item-1",
+                                "label": "Ph\u00f2ng kh\u00e1ch 1",
+                                "position": 0,
+                                "occurrence": 0,
+                                "remainingAttempts": -1,
+                                "answered": true,
+                                "flagged": false,
+                                "viewed": true,
+                                "categories": [
+                                    "easy"
+                                ],
+                                "informational": false
+                            },
+                            "item-2": {
+                                "id": "item-2",
+                                "label": "B\u1ecd c\u1ea1p ",
+                                "position": 1,
+                                "occurrence": 0,
+                                "remainingAttempts": -1,
+                                "answered": true,
+                                "flagged": false,
+                                "viewed": true,
+                                "categories": [
+                                    "easy"
+                                ],
+                                "informational": false
+                            },
+                            "item-3": {
+                                "id": "item-3",
+                                "label": "Indoor 1",
+                                "position": 2,
+                                "occurrence": 0,
+                                "remainingAttempts": -1,
+                                "answered": false,
+                                "flagged": false,
+                                "viewed": false,
+                                "categories": [
+                                    "medium"
+                                ],
+                                "informational": false
+                            },
+                            "item-4": {
+                                "id": "item-4",
+                                "label": "Ph\u00f2ng kh\u00e1ch 1",
+                                "position": 3,
+                                "occurrence": 0,
+                                "remainingAttempts": -1,
+                                "answered": false,
+                                "flagged": false,
+                                "viewed": false,
+                                "categories": [
+                                    "medium"
+                                ],
+                                "informational": false
+                            },
+                            "item-5": {
+                                "id": "item-5",
+                                "label": "Q4",
+                                "position": 4,
+                                "occurrence": 0,
+                                "remainingAttempts": -1,
+                                "answered": false,
+                                "flagged": false,
+                                "viewed": false,
+                                "categories": [
+                                    "medium"
+                                ],
+                                "informational": false
+                            },
+                            "item-6": {
+                                "id": "item-6",
+                                "label": "Q5",
+                                "position": 5,
+                                "occurrence": 0,
+                                "remainingAttempts": -1,
+                                "answered": false,
+                                "flagged": false,
+                                "viewed": false,
+                                "categories": [
+                                    "medium"
+                                ],
+                                "informational": false
+                            },
+                            "item-7": {
+                                "id": "item-7",
+                                "label": "\u1ea4m \u0111un n\u01b0\u1edbc",
+                                "position": 6,
+                                "occurrence": 0,
+                                "remainingAttempts": -1,
+                                "answered": false,
+                                "flagged": false,
+                                "viewed": false,
+                                "categories": [
+                                    "medium"
+                                ],
+                                "informational": false
+                            },
+                            "item-8": {
+                                "id": "item-8",
+                                "label": "\u1ea4m \u0111un n\u01b0\u1edbc",
+                                "position": 7,
+                                "occurrence": 0,
+                                "remainingAttempts": -1,
+                                "answered": false,
+                                "flagged": false,
+                                "viewed": false,
+                                "categories": [
+                                    "medium"
+                                ],
+                                "informational": false
+                            }
+                        },
+                        "stats": {
+                            "questions": 8,
+                            "answered": 2,
+                            "flagged": 0,
+                            "viewed": 2,
+                            "total": 8,
+                            "questionsViewed": 2
+                        }
+                    }
+                },
+                "stats": {
+                    "questions": 8,
+                    "answered": 2,
+                    "flagged": 0,
+                    "viewed": 2,
+                    "total": 8,
+                    "questionsViewed": 2
+                }
+            }
+        },
+        "stats": {
+            "questions": 8,
+            "answered": 2,
+            "flagged": 0,
+            "viewed": 2,
+            "total": 8,
+            "questionsViewed": 2
+        }
+    },
+    "toolStates": [],
+    "token": "ea65ebccab69b3dab13069d1b0c6ef11bb9972f1",
+    "messages": []
+}
