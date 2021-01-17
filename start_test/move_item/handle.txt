@@ -1,0 +1,12 @@
+- cần thay thế trường Cookie trong header_request bằng giá trị đã lấy được khi thực hiện chức năng đăng nhập,
+giá trị của trường X-Auth-Token trong header chính là token khi gọi api init_test hoặc api get_item và
+move_item
+3 tham số truyền lên trong params là testDefinition, testCompilation, testServiceCallId lấy được khi gọi api
+get_link (serviceCallId khi gọi get_link chính là giá trị của tham số testServiceCallId (nó đổi tên))
+,itemResponse trong body_request có dạng sau: {"RESPONSE":{"base":{"identifier":"choice_1"}}}, trong đó giá
+trị identifier là id của các phương án người dùng trả lời, còn itemState có dạng: 
+{"RESPONSE":{"response":{"base":{"identifier":"choice_1"}}}} (nếu câu hỏi là dạng chọn), tùy dạng câu hỏi
+mà 2 trường này sẽ gửi lên server các dạng json khác nhau (có 4 dạng câu hỏi: chọn một, chọn nhiều, 
+nối, sắp xếp thì có 4 dạng gửi lên khác nhau), itemDuration là thời gian trả lời câu hỏi tính bằng giấy
+
+- dữ liệu json trả về chỉ cần lấy giá trị json[token]

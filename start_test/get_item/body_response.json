@@ -1,0 +1,244 @@
+{
+    "baseUrl": "http://aigle.blife.ai/tao/getFileFlysystem.php/5f8e889d5f417/1610877924/b8ab17f4f329f15f4c5bb5e85828cc6c/3/a/7/1fec7aca101941da6bdf8ae07f7d6/*/en-US/",
+    "itemData": {
+        "type": "qti",
+        "data": {
+            "identifier": "i16035278633842128",
+            "serial": "i5fdad053374bb",
+            "qtiClass": "assessmentItem",
+            "attributes": {
+                "identifier": "i16035278633842128",
+                "title": "Phòng khách 1",
+                "label": "Bức tranh",
+                "xml:lang": "en-US",
+                "adaptive": false,
+                "timeDependent": false,
+                "toolName": "AIGLE",
+                "toolVersion": "(Based on TAO 3.3.0-RC02)",
+                "class": ""
+            },
+            "body": {
+                "serial": "i5fdad053374b3",
+                "body": "\n    <div class=\"grid-row\">\n      <div class=\"col-12\">\n        {{i5fdad0533782c}}\n      </div>\n    </div>\n  ",
+                "elements": {
+                    "i5fdad0533782c": {
+                        "serial": "i5fdad0533782c",
+                        "qtiClass": "choiceInteraction",
+                        "attributes": {
+                            "responseIdentifier": "RESPONSE",
+                            "shuffle": true,
+                            "maxChoices": 1,
+                            "minChoices": 0,
+                            "orientation": "horizontal",
+                            "class": "eliminability-deselected"
+                        },
+                        "choices": {
+                            "i5fdad053379d7": {
+                                "identifier": "choice_2",
+                                "serial": "i5fdad053379d7",
+                                "qtiClass": "simpleChoice",
+                                "attributes": {
+                                    "identifier": "choice_2",
+                                    "fixed": false,
+                                    "showHide": "show"
+                                },
+                                "body": {
+                                    "serial": "i5fdad053379fd",
+                                    "body": "\n            {{i5fdad05337a47}}\n          ",
+                                    "elements": {
+                                        "i5fdad05337a47": {
+                                            "serial": "i5fdad05337a47",
+                                            "qtiClass": "img",
+                                            "attributes": {
+                                                "src": "cái bàn 1.png",
+                                                "alt": "",
+                                                "width": "52%",
+                                                "type": "image/png"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "i5fdad05337ae5": {
+                                "identifier": "choice_3",
+                                "serial": "i5fdad05337ae5",
+                                "qtiClass": "simpleChoice",
+                                "attributes": {
+                                    "identifier": "choice_3",
+                                    "fixed": false,
+                                    "showHide": "show"
+                                },
+                                "body": {
+                                    "serial": "i5fdad05337b05",
+                                    "body": "\n            {{i5fdad05337b52}}\n          ",
+                                    "elements": {
+                                        "i5fdad05337b52": {
+                                            "serial": "i5fdad05337b52",
+                                            "qtiClass": "img",
+                                            "attributes": {
+                                                "src": "n 1.png",
+                                                "alt": "",
+                                                "width": "52%",
+                                                "type": "image/png"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "i5fdad05337be5": {
+                                "identifier": "choice_4",
+                                "serial": "i5fdad05337be5",
+                                "qtiClass": "simpleChoice",
+                                "attributes": {
+                                    "identifier": "choice_4",
+                                    "fixed": false,
+                                    "showHide": "show"
+                                },
+                                "body": {
+                                    "serial": "i5fdad05337c04",
+                                    "body": "\n            {{i5fdad05337c50}}\n          ",
+                                    "elements": {
+                                        "i5fdad05337c50": {
+                                            "serial": "i5fdad05337c50",
+                                            "qtiClass": "img",
+                                            "attributes": {
+                                                "src": "bức tranh 3.png",
+                                                "alt": "b c tranh 3",
+                                                "width": "52%",
+                                                "type": "image/png"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "i5fdad05337cf3": {
+                                "identifier": "choice_1",
+                                "serial": "i5fdad05337cf3",
+                                "qtiClass": "simpleChoice",
+                                "attributes": {
+                                    "identifier": "choice_1",
+                                    "fixed": false,
+                                    "showHide": "show"
+                                },
+                                "body": {
+                                    "serial": "i5fdad05337d13",
+                                    "body": "\n            {{i5fdad05337d61}}\n          ",
+                                    "elements": {
+                                        "i5fdad05337d61": {
+                                            "serial": "i5fdad05337d61",
+                                            "qtiClass": "img",
+                                            "attributes": {
+                                                "src": "cái điều khiển 1.png",
+                                                "alt": "c i điều khiển 1",
+                                                "width": "52%",
+                                                "type": "image/png"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "prompt": {
+                            "serial": "i5fdad053378a6",
+                            "body": "Chọn đáp án đúng : Đâu là \"bức tranh\" ? \n        {{i5fdad05337916}}\n\n\n",
+                            "elements": {
+                                "i5fdad05337916": {
+                                    "serial": "i5fdad05337916",
+                                    "qtiClass": "object",
+                                    "attributes": {
+                                        "data": "painting_vi.mp3",
+                                        "type": "audio/mpeg"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "namespaces": {
+                "": "http://www.imsglobal.org/xsd/imsqti_v2p2",
+                "m": "http://www.w3.org/1998/Math/MathML",
+                "xi": "http://www.w3.org/2001/XInclude",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            "schemaLocations": {
+                "http://www.imsglobal.org/xsd/imsqti_v2p2": "http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd"
+            },
+            "stylesheets": {
+                "i5fdad0533759f": {
+                    "serial": "i5fdad0533759f",
+                    "qtiClass": "stylesheet",
+                    "attributes": {
+                        "href": "tao-user-styles.css",
+                        "type": "text/css",
+                        "media": "all",
+                        "title": ""
+                    }
+                }
+            },
+            "outcomes": {
+                "i5fdad053376a0": {
+                    "identifier": "SCORE",
+                    "serial": "i5fdad053376a0",
+                    "qtiClass": "outcomeDeclaration",
+                    "attributes": {
+                        "identifier": "SCORE",
+                        "cardinality": "single",
+                        "baseType": "float",
+                        "normalMaximum": 1
+                    },
+                    "defaultValue": null
+                },
+                "i5fdad053376e5": {
+                    "identifier": "MAXSCORE",
+                    "serial": "i5fdad053376e5",
+                    "qtiClass": "outcomeDeclaration",
+                    "attributes": {
+                        "identifier": "MAXSCORE",
+                        "cardinality": "single",
+                        "baseType": "float"
+                    },
+                    "defaultValue": "1"
+                }
+            },
+            "responses": {
+                "i5fdad05337610": {
+                    "identifier": "RESPONSE",
+                    "serial": "i5fdad05337610",
+                    "qtiClass": "responseDeclaration",
+                    "attributes": {
+                        "identifier": "RESPONSE",
+                        "cardinality": "single",
+                        "baseType": "identifier"
+                    },
+                    "defaultValue": []
+                }
+            },
+            "feedbacks": [],
+            "apipAccessibility": ""
+        },
+        "assets": {
+            "audio": {
+                "painting_vi.mp3": "painting_vi.mp3"
+            },
+            "img": {
+                "cái bàn 1.png": "cái bàn 1.png",
+                "n 1.png": "n 1.png",
+                "bức tranh 3.png": "bức tranh 3.png",
+                "cái điều khiển 1.png": "cái điều khiển 1.png"
+            },
+            "css": {
+                "tao-user-styles.css": "tao-user-styles.css"
+            }
+        }
+    },
+    "itemState": {},
+    "itemIdentifier": "item-1",
+    "portableElements": {
+        "pci": [],
+        "pic": []
+    },
+    "success": true,
+    "token": "87471b5b3fffa2bc2fa8a2215ec62e973269b861",
+    "messages": []
+}

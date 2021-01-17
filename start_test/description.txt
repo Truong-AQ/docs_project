@@ -8,3 +8,7 @@ http://aigle.blife.ai/taoDelivery/DeliveryServer/runDeliveryExecution?deliveryEx
 (phương thức post, folder init_test)
 
 kết quả sau khi gọi chúng ta sẽ có mảng các câu hỏi, có thông số là id của câu hỏi đó:
+- Sau khi có id của các câu hỏi, ta sẽ lấy dữ liệu câu hỏi, cách lấy ta dùng api trong thư mục get_link, api:
+http://aigle.blife.ai/taoQtiTest/Runner/getItem (phương thức get, folder get_item)
+- Sau khi lựa chọn phương án trả lời câu hỏi, chúng ta sẽ gửi kết quả lên server bằng link:
+http://aigle.blife.ai/taoQtiTest/Runner/move (phương thức post, folder move_item)

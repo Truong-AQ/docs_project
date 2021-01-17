@@ -1,0 +1,17 @@
+- cần thay thế trường Cookie trong header_request bằng giá trị đã lấy được khi thực hiện chức năng đăng nhập,
+giá trị của trường X-Auth-Token trong header chính là token khi gọi api init_test hoặc api get_item và
+move_item
+3 tham số truyền lên trong params là testDefinition, testCompilation, testServiceCallId lấy được khi gọi api
+get_link (serviceCallId khi gọi get_link chính là giá trị của tham số testServiceCallId (nó đổi tên)),
+tham số itemDefinition là id của câu hỏi cần lấy dữ liệu
+- Cách lấy dữ liệu từ đống json trả về:
++ giá trị token: json[token]
++ trong chuỗi json có 1 chuỗi json[baseUrl], chuỗi này nối thêm tên file (hình ảnh, âm thanh) trong đống
+json trả về sẽ là link hình ảnh, âm thanh
++ loại câu hỏi: json[itemData][data][body][elements] sẽ trả về 1 chuỗi json2, ta lấy các value của chuỗi json2,
+gọi là json3, đọc giá trị json3[qtiClass], nó có giá trị là 1 chuỗi như "associateInteraction", 
+"orderInteraction", "choiceInteraction", tương ứng với các loại câu hỏi nối cặp, sắp xếp và chọn (riêng loại
+chọn xem trường json3[attributes][maxChoices] để xem là loại chọn 1 hay chọn nhiều đáp án)
++ gợi ý câu hỏi hay là câu hỏi là ở trong đống json3[prompt]
++ dữ liệu các phương án trả lời nằm trong json3[choices], mỗi câu trả lời có 1 nhận dạng riêng trong
+trường identifier

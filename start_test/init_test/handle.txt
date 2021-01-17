@@ -4,10 +4,10 @@ get_link
 
 - dữ liệu trả về dạng json, cách lấy thông tin các câu hỏi của bài kiểm tra trong file json này như sau:
 (gọi cả chuỗi json là json):
-+ token đọc bằng cách json['token], token này cần thiết để gọi api lấy dữ liệu câu hỏi đầu tiên (mỗi
++ token đọc bằng cách json[token], token này cần thiết để gọi api lấy dữ liệu câu hỏi đầu tiên (mỗi
 khi lấy câu hỏi hoặc submit trả lời của bệnh nhân, hệ thống sẽ trả về 1 giá trị token để gọi api lấy
 câu hỏi hoặc submit trả lời trong lần gọi tiếp theo)
-+ lấy 1 chuỗi json con trong chuỗi json ban đầu, chuỗi này là json1 = json[testMap]['parts]
++ lấy 1 chuỗi json con trong chuỗi json ban đầu, chuỗi này là json1 = json[testMap][parts]
 + chuỗi json1 có các cặp giá trị dạng key - value, ta quan tâm phần value của các cặp giá trị đó,
 cũng là 1 chuỗi json, ta gọi mỗi chuỗi đó là chuỗi json2
 + ta đọc chuỗi json3 = json2[sections][items]
